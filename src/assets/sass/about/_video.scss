@@ -1,0 +1,68 @@
+.about{
+    .video-bg{
+        height: 110vh;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #00000056;
+        .wheel{
+            filter: brightness(100);
+            width: 13%;
+            animation: wheel 10s linear infinite;
+        }
+        i{
+            position: absolute;
+            transform: translate(-40px, 40px);
+            color: #bc2d25;
+            font-size: 22px;
+            padding: 30px 33px;
+            background-color: white;
+            border-radius: 50%;
+            z-index: 10;
+            transition: .4s;
+            cursor: pointer;
+        }
+        i:hover{
+            background-color: #bc2d25;
+            color: white;
+        }
+    }
+}
+
+@keyframes wheel{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+
+@media(max-width:992px) {
+    .about {
+        .wheel{
+            width: 15% !important;
+        }
+        i {
+            transform: translate(-40px, 34px) !important;
+        }
+        h1{
+            font-size: 40px !important;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .about {
+        .wheel{
+            width: 19% !important;
+        }
+    }
+}
+
+@media(max-width:576px) {
+    .about {
+        .wheel{
+            width: 26% !important;
+        }
+        h1{
+            font-size: 35px !important;
+        }
+    }
+}

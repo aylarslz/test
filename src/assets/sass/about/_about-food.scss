@@ -1,0 +1,70 @@
+.about-food{
+    position: relative;
+    padding: 120px 0;
+    padding-bottom: 150px;
+    background-color: #F4F1EA;
+    p:nth-child(1){
+        color: #bc2d25;
+        font-weight: bold;
+    }
+    h1{
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .btn{
+        padding: 18px 45px;
+        text-wrap: nowrap;
+        color: white;
+        background-color: #398145;
+        transition: .3s;
+        span{
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+    .btn:hover{
+        background-color: #bc2d25;
+    }
+    .about-fries{
+        position: absolute;
+        left: 80px;
+        bottom: 0;
+        width: 30%;
+    }
+    .about-fade-pizza{
+        position: absolute;
+        right: 180px;
+        bottom: 170px;
+    }
+}
+
+@media(max-width:992px){
+    .about-fries{
+        display: none;
+    }
+    .about-fade-pizza{
+        bottom: 100px !important;
+    }
+}
+
+@media(max-width:768px){
+    .about-fade-pizza{
+        display: none;
+    }
+}
+
+@media(max-width:576px){
+    .about-food{
+        padding: 50px 30px;
+        h1{
+            font-size: 38px !important;
+        }
+        br{
+            display: none;
+        }
+        .btn{
+            margin-left: -10px;
+        }
+    }
+
+}

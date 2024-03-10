@@ -1,0 +1,79 @@
+.superDelicious{
+    background-color: #F4F1EA;
+    .super{
+        background-size: cover;
+        background-position-x: -150px;
+        height: 120vh;
+        border-radius: 25px;
+        .text{
+            transform: translate(50px,90px);
+        }
+        h1{
+            color: white;
+            font-size: 54px !important;
+            font-weight: bold;
+        }
+        p{
+            color: white;
+            font-weight: 600;
+        }
+        .phone{
+            color: #bc2d25;
+            font-size: 24px;
+            transform: translateY(-20px);
+        }
+        .super_food{
+            width: 90%;
+            transform: translateX(65px);
+            transition: .4s;
+        }
+    }
+    .super:hover .super_food{
+        scale: 1.09;
+    }
+    .today{
+        background-size: cover;
+        height: 65vh;
+        border-radius: 25px;
+        h1{
+            color: white;
+            font-size: 54px !important;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgb(116, 114, 114);;
+        }
+        .today_taco{
+            transform: translateX(30px);
+            transition: .4s;
+        }
+    }
+    .today:hover .today_taco{
+        scale: 1.09;
+    }
+    .pizza{
+        background-size: cover;
+        height: 51vh;
+        border-radius: 25px;
+        .super_pizza{
+            transform: translateX(125px);
+            transition: .4s;
+        }
+    }
+    .pizza:hover .super_pizza{
+        scale: 1.09;
+    }
+}
+
+@media(max-width:576px){
+    .today, .pizza{
+        display: none !important;
+    }
+    .super{
+        h1{
+            font-size: 20px !important;
+        }
+        .super_food{
+            width: 50% !important;
+            transform: translateX(200px) !important;
+        }
+    }
+}

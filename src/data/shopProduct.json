@@ -1,0 +1,191 @@
+[
+    {
+        "id": 1,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_9.png",
+        "title": "SAUSAGE, EGG & CHEESE CROISSAN'WICH",
+        "price": "5.60",
+        "category": "pizza"
+    },
+    {
+        "id": 2,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_17.png",
+        "title": "SPICY CHICKEN SANDWICH",
+        "price": "12.46",
+        "category": "fries"
+    },
+    {
+        "id": 3,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_20.png",
+        "title": "SUBWAY MELT",
+        "price": "6.90",
+        "category": "specials"
+    },
+    {
+        "id": 4,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_24.png",
+        "title": "CRUNCHWRAP SUPREME",
+        "price": "5.40",
+        "category": "fries"
+    },
+    {
+        "id": 5,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_1.png",
+        "title": "BEEF 'N CHEDDAR",
+        "price": "5.99",
+        "category": "specials"
+    },
+    {
+        "id": 6,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_21.png",
+        "title": "DOUBLE-DOUBLE",
+        "price": "9.35",
+        "category": "burgers"
+    },
+    {
+        "id": 7,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_5.png",
+        "title": "GRILLED CHICKEN WRAP",
+        "price": "3.39",
+        "category": "burgers"
+    },
+    {
+        "id": 8,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_14.png",
+        "title": "LOADED FRIES",
+        "price": "2.26",
+        "category": "salads"
+    },
+    {
+        "id": 9,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_26.png",
+        "title": "WHOPPER BURGER KING",
+        "price": "12.39",
+        "category": "burgers"
+    },
+    {
+        "id": 10,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_10.png",
+        "title": "FISH FILLET",
+        "price": "5.90",
+        "category": "pizza"
+    },
+    {
+        "id": 11,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_13.png",
+        "title": "PIECE CHICKEN MCNUGGETS",
+        "price": "9.08",
+        "category": "salads"
+    },
+    {
+        "id": 12,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_11.png",
+        "title": "CHILI CHEESE DOG",
+        "price": "4.09",
+        "category": "sandwich"
+    },
+    {
+        "id": 13,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_6.png",
+        "title": "SONIC BLAST",
+        "price": "6.29",
+        "category": "burgers"
+    },
+    {
+        "id": 14,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_2.png",
+        "title": "PEPPERONI PIZZA",
+        "price": "12.49",
+        "category": "sandwich"
+    },
+    {
+        "id": 15,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_4.png",
+        "title": "BACON ULTIMATE CHEESEBURGER",
+        "price": "9.99",
+        "category": "fries"
+    },
+    {
+        "id": 16,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_16.png",
+        "title": "ORIGINAL RECIPE CHICKEN",
+        "price": "5.00",
+        "category": "fries"
+    },
+    {
+        "id": 17,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_7.png",
+        "title": "CLASSIC CHICKEN SANDWICH",
+        "price": "2.35",
+        "category": "burgers"
+    },
+    {
+        "id": 18,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_8.png",
+        "title": "CRISPY CHICKEN STRIPS",
+        "price": "3.97",
+        "category": "pizza"
+    },
+    {
+        "id": 19,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_15.png",
+        "title": "CLASSIC ROAST BEEF",
+        "price": "9.58",
+        "category": "burgers"
+    },
+    {
+        "id": 20,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_22.png",
+        "title": "FILET-O-FISH",
+        "price": "8.05",
+        "category": "fries"
+    },
+    {
+        "id": 21,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_25.png",
+        "title": "CHICKEN MCNUGGETS",
+        "price": "6.90",
+        "category": "fries"
+    },
+    {
+        "id": 22,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_23.png",
+        "title": "TACO SUPREME",
+        "price": "8.32",
+        "category": "taco"
+    },
+    {
+        "id": 23,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_3.png",
+        "title": "SPICY CHICKEN SANDWICH",
+        "price": "5.90",
+        "category": "fries"
+    },
+    {
+        "id": 24,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_12.png",
+        "title": "DOUBLE STACK",
+        "price": "4.23",
+        "category": "taco"
+    },
+    {
+        "id": 25,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_19.png",
+        "title": "CHICKEN TENDERS",
+        "price": "3.60",
+        "category": "specials"
+    },
+    {
+        "id": 26,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_18.png",
+        "title": "JUMBO JACK",
+        "price": "9.83",
+        "category": "fries"
+    },
+    {
+        "id": 27,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_27.png",
+        "title": "BIG MAC",
+        "price": "35.15",
+        "category": "burgers"
+    }
+]

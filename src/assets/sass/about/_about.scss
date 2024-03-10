@@ -1,0 +1,25 @@
+.about{
+    .bg-image{
+        height: 50vh;
+        background-position-x: -320px;
+        background-blend-mode: multiply;
+        background-color: #0000007e;
+        *{
+            color: white !important;
+        }
+        h1{
+            font-size: 70px;
+            font-weight: bold;
+        }
+        p{
+            text-wrap: nowrap !important;
+            font-size: 15px;
+            a:hover{
+                color: #398145 !important;
+            }
+            i{
+                font-size: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+.best-selling{
+    padding: 100px 0;
+    background-color: #F4F1EB;
+    position: relative;
+    .marquee-container {
+        background-color: #F4F1EA;
+        .marquee{
+            font-size: 90px !important;
+            font-weight: bold;
+            color: #F4F1EA;
+            text-shadow: -1px -1px 0 #c2c0c0,
+                1px -1px 0 #c2c0c0,
+                -1px 1px 0 #c2c0c0,
+                1px 1px 0 #c2c0c0;
+                @media(max-width: 992px) {
+                    font-size: 70px !important;
+                }
+                @media(max-width: 768px) {
+                    font-size: 40px !important;
+                }
+        }
+    }
+    .best_fade_burger{
+        position: absolute;
+        left: -70px;
+    }
+    .best_fade_pizza{
+        position: absolute;
+        right: 50px;
+        top: 250px;
+    }
+    .slick-list {margin: 0 20px;}
+    .slick-slide>div {padding: 0 15px;}
+    .slick-dots {
+        li {
+            margin-right: -0.3rem;
+		}
+        button {
+            width: 0.55rem;
+            height: 0.55rem;
+            border-radius: 50%;
+            background-color: #B4B4AF;
+            text-indent: -9999px;
+        }
+        li.slick-active button {
+            background-color: #c1372d;
+            width: 1.2rem;
+            border-radius: 5px;
+            margin: 0 -0.25rem;
+        }
+    }
+    h1{
+        font-size: 54px;
+        font-weight: 900;
+    }
+    .best-card{
+        border: none;
+        border-radius: 30px;
+        padding: 10px 10px;
+        margin-bottom: 50px;
+        .card-body{
+            .card-title{
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .card-title:hover{
+                color: #167c27;
+            }
+            .fa-heart{
+                font-size: 18px;
+                color: #B4B4AF;
+                transition: .3s;
+                transform: translateY(-3px);
+            }
+            .fa-heart:hover{
+                color: #bc2d25;
+            }
+            .stars{
+                .fa-star{
+                    color: #f09c2e;
+                    font-size: 11.5px;
+                }
+                .fa-star:nth-child(5){
+                    color: #B4B4AF;
+                }
+                span{
+                    font-size: 11px;
+                }
+            }
+            p{
+                font-size: 15px;
+            }
+            .price{
+                font-size: 20px;
+                font-weight: bold;
+                color: #cf2a22;
+            }
+            .fa-basket-shopping{
+                background-color: #398145;
+                transition: .3s;
+            }
+            .fa-basket-shopping:hover{
+                background-color: #bc2d25;
+            }
+            .btn{
+                border: none;
+                padding: 0;
+                background-color: #398145;
+                background-color: blue;
+            }
+        }
+    }
+}
+

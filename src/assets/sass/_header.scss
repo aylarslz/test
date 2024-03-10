@@ -1,0 +1,156 @@
+$red: #bc2d25;
+$green: #398145;
+$fw: 600;
+
+.header{
+    background-color: #F4F1EB;
+    .logo{
+        transform: translateX(52px);
+    }
+    .fa-bars{
+        font-size: 20px;
+        transition: .2s;
+    }
+    .fa-bars:hover{
+        color: $red;
+    }
+    .fa-phone-volume{
+        font-size: 24px;
+        color: $green;
+    }
+    span:nth-child(1){
+        font-size: 12px;
+        font-weight: $fw;
+    }
+    .phone{
+        font-size: 20px;
+        font-weight: $fw;
+        color: $red;
+    }
+    
+.search-order{
+    .fa-spinner{
+        transition: .3s;
+    }
+    .search:hover, .fa-spinner:hover{
+        color: $red;
+    }
+    .fa-basket-shopping{
+        background-color: $green;
+    }
+    .order {
+        position: relative;
+        background-color: $red;
+        font-size: 12px;
+        font-weight: $fw;
+        transition: background-color 0.5s;
+    }
+    .order:hover {
+        background-color: black;
+    }    
+    .search span{
+        font-size: 15px;
+    }
+}
+
+}
+.offcanvas-logo{
+    transform: translate(90px, 20px);
+}
+.mainMenu{
+    width: 26%;
+    .main{
+        text-wrap: nowrap;
+        font-size: 13px;
+        margin-left: 11px;
+        font-weight: $fw;
+        border-bottom: 2px solid $red;
+        padding-bottom: 2px;
+    }
+    span{
+        font-size: 13px;
+        margin-left: 11px;
+        font-weight: $fw;
+    }
+    .toggle{
+        background: none;
+        border: none;
+        color: black;
+        width: 100%;
+        font-size: 14px;
+        font-weight: $fw;
+    }
+    span:hover, .toggle:hover{
+        color: $red;
+    }
+}
+.search-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    input{
+        width: 100%;
+        position: relative;
+        border: none;
+        padding: 37px 50px;
+        font-size: 20px;
+    }
+    input:focus{
+        outline: none;
+    }
+    .close{
+        font-size: 22px;
+        position: absolute;
+        color: black;
+        top: 30px;
+        right: 40px;
+    }
+}
+.search-results{
+    li{
+        list-style: none;
+        border-top: 0.5px solid rgba(0, 0, 0, 0.293);
+    }
+}
+
+
+@media(max-width:1200px){
+    .mainMenu{
+        .toggle{
+            display: block;
+        }
+    }
+}
+
+@media(max-width:992px){
+    .header{
+        .support{
+            display: none !important;
+        }
+        .greeting{
+            display: none;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .header{
+        .logo{
+            transform: translateX(0px) !important;
+        }
+        .search, .fa-spinner{
+            display: none !important;
+        }
+        .shopping{
+            display: block !important;
+        }
+    }
+}
+
+@media(max-width:576px){
+    .header{
+        .logo{
+            transform: translateX(40px) !important;
+        }
+    }
+}

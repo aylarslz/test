@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_27.png",
+        "title": "BIG MAC",
+        "price": "35.15"
+    },
+    {
+        "id": 2,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_17.png",
+        "title": "WHOPPER BURGER KING",
+        "price": "12.39"
+    },
+    {
+        "id": 3,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_20.png",
+        "title": "CHICKEN MCNUGGETS",
+        "price": "6.90"
+    },
+    {
+        "id": 4,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_24.png",
+        "title": "CRUNCHWRAP SUPREME",
+        "price": "5.40"
+    },
+    {
+        "id": 5,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_23.png",
+        "title": "TACO SUPREME",
+        "price": "8.32"
+    },
+    {
+        "id": 6,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_22.png",
+        "title": "FILET-O-FISH",
+        "price": "8.05"
+    },
+    {
+        "id": 7,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_27.png",
+        "title": "BIG MAC",
+        "price": "35.15"
+    },
+    {
+        "id": 8,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_26.png",
+        "title": "WHOPPER BURGER KING",
+        "price": "12.39"
+    },
+    {
+        "id": 9,
+        "image": "https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/product_25.png",
+        "title": "CHICKEN MCNUGGETS",
+        "price": "6.90"
+    }
+]

@@ -1,0 +1,59 @@
+.shop{
+    .shop-card{
+        border: none;
+        border-radius: 30px;
+        padding: 10px 10px;
+        margin-bottom: 50px;
+        .card-body{
+            .card-title{
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .card-title:hover{
+                color: #167c27;
+            }
+            .fa-heart{
+                font-size: 18px;
+                color: #B4B4AF;
+                transition: .3s;
+                transform: translateY(-3px);
+            }
+            .fa-heart:hover{
+                color: #bc2d25;
+            }
+            .stars{
+                .fa-star{
+                    color: #f09c2e;
+                    font-size: 11.5px;
+                }
+                .fa-star:nth-child(5){
+                    color: #B4B4AF;
+                }
+                span{
+                    font-size: 11px;
+                }
+            }
+            p{
+                font-size: 15px;
+            }
+            .price{
+                font-size: 20px;
+                font-weight: bold;
+                color: #cf2a22;
+            }
+            .fa-basket-shopping{
+                background-color: #398145;
+                transition: .3s;
+            }
+            .fa-basket-shopping:hover{
+                background-color: #bc2d25;
+            }
+            .btn{
+                border: none;
+                padding: 0;
+                background-color: #398145;
+                background-color: blue;
+            }
+        }
+    }
+}

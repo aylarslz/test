@@ -1,0 +1,235 @@
+$red: #bc2d25;
+$green: #2f813d;
+$yellow: #f1c32b;
+$fw: 600;
+
+.hero-bg{
+    height: 130vh;
+    background-size: cover; 
+    background-position-x: -220px;
+    position: relative;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.carousel-indicators *{
+    margin-right: 8px !important;
+}
+
+.slide-one, .slide-three{
+    transform: translateX(-100px);
+    .text{
+        h1{
+            font-size: 95px;
+            font-weight: 900;
+            letter-spacing: -6px;
+            line-height: 95px;
+            span{
+                text-wrap: nowrap;
+            }
+        }
+        .order {
+            background-color: $green;
+            font-size: 13px;
+            font-weight: $fw;
+            transition: background-color 0.3s;
+            padding: 23px 35px !important;
+        }
+        .order:hover{
+            background-color: $red;
+        }
+        .blurred_leaf{
+            position: absolute;
+            left: -100px;
+            top: 30px;
+        }
+        .pickle_leaves{
+            position: absolute;
+            left: 300px;
+            top: 30px;
+        }
+        .mushroom_1{
+            position: absolute;
+            left: -65px; 
+            bottom: 200px;
+        }
+        .mushroom_2{
+            position: absolute; 
+            left: 50px; 
+            bottom: 130px; 
+            transform: scaleX(-1);
+            width: 6.5%;
+        }
+    }
+    .discount_50{
+        position: absolute;
+        right: -300px;
+        width: 21%;
+        animation: discount 5s ease-in-out infinite;
+        @keyframes discount {
+            0% {scale: 1;}
+            50%{scale: 0.8;}
+            100% {scale: 1;}
+        }
+    }
+    .burger-1{
+        width: 170%;
+        transform: translateX(50px);
+    }
+}
+
+.slide-two, .slide-four{
+    .steak{
+        width: 160%;
+        transform: translateX(-200px);
+    }
+    .pickle_leaves{
+        position: absolute;
+        right: -150px;
+    }
+    .mushroom_1{
+        position: absolute;
+        left: -140px;
+        bottom: 300px;
+        transform: scaleX(-1);
+    }
+    .mushroom_2{
+        position: absolute;
+        left: -230px;
+        top: 200px;
+    }
+    .maple_leaf{
+        position: absolute;
+        left: -240px;
+        top: 50px;
+    }
+    .sausage{
+        position: absolute;
+        bottom: 100px;
+        left: -70px;
+    }
+    .corn{
+        position: absolute;
+        bottom: 20px;
+        left: 100px;
+    }
+    .three_leaves{
+        position: absolute;
+        top: -10px;
+        left: 320px;
+    }
+    .text{
+        padding-left: 60px;
+        h1{
+            font-size: 90px;
+            font-weight: 900;
+            letter-spacing: -4px;
+            line-height: 95px;
+            span{
+                text-wrap: nowrap;
+            }
+        }
+        .order {
+            background-color: $green;
+            font-size: 13px;
+            font-weight: $fw;
+            transition: background-color 0.3s;
+            padding: 23px 35px !important;
+        }
+        .order:hover{
+            background-color: $red;
+        }
+        .sale{
+            color: $yellow;
+            font-size: 24px;
+            font-weight: $fw;
+        }
+    }
+}
+
+.slide-three{
+    transform: translate(-70px,-50px);
+    .sale{
+        color: $yellow;
+        font-size: 24px;
+        font-weight: $fw;
+    }
+    .super_pizza{
+        width: 220%;
+        transform: rotate(10deg) translate(-100px, 40px);
+    }
+    .discount_50{
+        left: 440px;
+        top: 70px;
+    }
+    .blurred_leaf{
+        left: -160px !important;
+    }
+    .mushroom_1{
+        bottom: 50px !important;
+        transform: scaleX(-1);
+    }
+    .two_tomatoes{
+        position: absolute;
+        right: -100px;
+        top: 30px;
+        width: 20%;
+    }
+    .extra{
+        text-wrap: nowrap;
+    }
+    .blurred_tomato{
+        position: absolute;
+        bottom: -70px;
+        right: -70px;
+    }
+}
+
+.slide-four{
+    .blurred_tomato{
+        position: absolute;
+        left: -170px;
+        bottom: 50px;
+    }
+    .secret{
+        text-wrap: nowrap;
+    }
+    .discount_30{
+        position: absolute;
+        right: -160px;
+        top: 30px;
+        transform: rotate(35deg);
+        animation: discount 5s ease-in-out infinite;
+        @keyframes discount {
+            0% {scale: 1;}
+            50%{scale: 0.8;}
+            100% {scale: 1;}
+        }
+    }
+    .burger_2{
+        width: 170%;
+        transform: translateX(-90px);
+    }
+    .text{
+        transform: translateX(-120px);
+        padding-left: 0;
+        h1{
+            font-size: 100px;
+        }
+    }
+    .mushroom_1{
+        position: absolute;
+        left: 450px;
+        bottom: -80px;
+        transform: scaleX(-1);
+    }
+    .mushroom_2{
+        position: absolute;
+        left: 300px;
+        top: 300px;
+    }
+}

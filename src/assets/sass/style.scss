@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+*{
+    font-family: "Barlow Condensed", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    // font-family: 'Bebas Neue', sans-serif;
+}
+
+// Header
+@import url(_header.scss);
+
+// Password
+@import url(_password.scss);
+
+// Home page
+@import url(home/_hero.scss);
+@import url(home/_hotdog.scss);
+@import url(home/_bestSelling.scss);
+@import url(home/_limitedRange.scss);
+@import url(home/_superDelicious.scss);
+@import url(home/_join.scss);
+@import url(home/_imagesRow.scss);
+
+// Shop page
+@import url(shop/_shop.scss);
+@import url(shop/_dropdown.scss);
+@import url(shop/_shop-card.scss);
+@import url(shop/_product-details.scss);
+
+// About us page
+@import url(about/_about.scss);
+@import url(about/_about-food.scss);
+@import url(about/_made-right.scss);
+@import url(about/_video.scss);
+
+// Blog page
+@import url(blog/_blog.scss);
+
+// Footer
+@import url(_footer.scss);

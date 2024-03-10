@@ -1,0 +1,48 @@
+.hotdog-container{
+    .card{
+        background-color: #F4F1EA;
+        padding: 50px 0;
+        border: 0.5px solid #c1bfbf;
+        border-radius: 0;
+        transition: .2s;
+        img{
+            width: 83%;
+            transition: ease-in;
+        }
+        .title{
+            transition: .4s;
+            h1, h5{
+                font-weight: bold;
+                color: #b7b7b7;
+            }
+            h1{
+                font-size: 45px;
+            }
+        }
+        .hidden{
+            h5{
+                font-size: 19px;
+                color: #F4F1EA;
+            }
+            p{
+                font-size: 16px;
+                color: #F4F1EA;
+            }
+        }
+    }
+    .card:hover{
+        background-color: #fcad39;
+    }
+    .card:hover img{
+        transform: translateY(120px);
+    }
+    .card:hover .title{
+        transform: translateY(-300px);
+    }
+    .card:hover h1, .card:hover .title h5{
+        color: white;
+    }
+    .card:hover p, .card:hover .hidden h5{
+        color: white;
+    }
+}

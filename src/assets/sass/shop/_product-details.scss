@@ -1,0 +1,123 @@
+.product-details{
+    .bg-image{
+        height: 20vh;
+        background-size: cover;
+        background-position-y: -40px;
+        background-blend-mode: multiply;
+        background-color: #0000007e;
+        *{
+            color: white !important;
+        }
+        h1{
+            font-size: 70px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 15px;
+            a:hover{
+                color: #398145 !important;
+            }
+            i{
+                font-size: 10px;
+            }
+        }
+    }
+    .image-details{
+        background-color: #F4F1EA;
+        .image{
+            .img-fluid{
+                scale: 1.2;
+            }
+        }
+        .details{
+            h1{
+                font-size: 40px;
+            }
+            .stars{
+                .fa-star{
+                    font-size: 12px;
+                    color: #f1982b;
+                }
+                .customer-reviews{
+                    font-size: 14px;
+                }
+                .customer-reviews:hover{
+                    text-decoration: underline;
+                    color: #bc2d25;
+                }
+            }
+            hr{
+                color: #c2c2c2;
+            }
+            .price{
+                color: #bc2d25;
+                font-size: 35px;
+                font-weight: bold;
+            }
+            ul{
+                li{
+                    font-size: 14px;
+                    margin-left: -15px;
+                }
+            }
+            .cart{
+                .basket{
+                    padding: 13px 90px 13px 80px;
+                    text-wrap: nowrap;
+                    color: white;
+                    background-color: #398145;
+                    transition: .3s;
+                    span{
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+                .basket:hover{
+                    background-color: #bc2d25;
+                }
+                .table{
+                    border: 2px solid #00000042;
+                    border-radius: 7px;
+                    height: 8.5vh;
+                    margin-top: 16px;
+                    .decrement, .increment{
+                        background-color: transparent;
+                        color: black;
+                        border: none;
+                        font-size: 25px;
+                    }
+                    .mx-3{
+                        background-color: transparent;
+                        font-size: 22px;
+                    }
+                }
+                .wishlist{
+                    background-color: transparent;
+                    color: black;
+                    border: 2px solid #00000042;
+                    border-radius: 7px;
+                    font-size: 20px;
+                    padding: 9.3px 15px;
+                    transition: .3s;
+                }
+                .wishlist:hover{
+                    background-color: #bc2d25;
+                    border-color: #bc2d25;
+                    color: white;
+                }
+            }
+            .info{
+                font-size: 13px;
+                span{
+                    font-weight: bold;
+                }
+                i{
+                    font-size: 15px;
+                }
+                i:hover{
+                    color: #bc2d25;
+                }
+            }
+        }
+    }
+}
